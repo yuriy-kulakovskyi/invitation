@@ -21,7 +21,15 @@ const Timetable = () => {
         </h1>
 
         <p className="timetable__paragraph">
-          Конкурси, розваги та веселощі
+          Конкурси, розваги та веселощі. Про годину повідомимо згодом
+        </p>
+
+        <h1 className="timetable__title">
+          Місце проведення свята
+        </h1>
+
+        <p className="timetable__paragraph">
+          Карамель м. Самбір
         </p>
       </div>
     </section>
