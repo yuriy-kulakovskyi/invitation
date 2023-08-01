@@ -1,0 +1,49 @@
+.timetable {
+  width: 100%;
+  padding: 60px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.timetable__banner {
+  width: 100%; 
+  max-width: 500px; max-height: 300px;
+  border-radius: 10px;
+}
+
+.timetable__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.timetable__title {
+  font-family: "Montserrat Alternates", serif;
+  font-size: 42px;
+  color: #757144;
+}
+
+.timetable__paragraph {
+  font-family: "Montserrat Alternates", serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* Media */
+@media screen and (min-width: 768px) {
+  .timetable {
+    flex-direction: row;
+  }
+
+  .timetable__banner {
+    width: 50%;
+  }
+
+  .timetable__content {
+    width: auto;
+  }
+}

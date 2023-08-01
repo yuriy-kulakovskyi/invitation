@@ -1,0 +1,19 @@
+/* Great Vibes */
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes:regular");
+
+/* Montserrat Alternates */
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:regular");
+
+* {
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul, ol {
+  list-style-type: none;
+}

@@ -1,0 +1,45 @@
+.about {
+  width: 100%; min-height: 60vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  padding: 40px 0;
+}
+
+/* title */
+.about__title,
+.about__card__info__name {
+  font-size: 30px;
+  color: #757144;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* card with information */
+.about__card,
+.about__card__info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about__card__img {
+  width: 270px; height: 270px;
+  border-radius: 100%;
+  background-image: url("../../assets/img/avatar.webp");
+  background-size: cover;
+  background-position: top;
+}
+
+.about__card__info__subtitle {
+  color: #000;
+  font-size: 24px;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 700;
+}
